@@ -8,4 +8,9 @@ abstract class Controller
     {
         return view('students.create');
     }
+
+    public function save()
+    {
+        // Logic for saving student data
+    }
 }

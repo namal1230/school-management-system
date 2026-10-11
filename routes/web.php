@@ -8,3 +8,4 @@ use App\Http\Controllers\StudentController;
 // });
 
 Route::get('students/create', [StudentController::class, 'create']);
+Route::post('students/save', [StudentController::class, 'save']);
